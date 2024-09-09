@@ -17,7 +17,7 @@ export default function CSVViewer({ data }: CSVViewerProps) {
   const { columns, duplicates } = useMemo(() => {
     const seen = new Set<string>();
     const duplicates = new Set<string>();
-    const uniqueRows = [];
+    const uniqueRows: string[][] = [];
 
     data.forEach(row => {
       const rowString = row.join(',');
