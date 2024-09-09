@@ -4,6 +4,11 @@ import { useState } from 'react'
 import CSVViewer from '../components/CSVViewer'
 import FileUploadForm from '../components/FileUploadForm'
 
+export interface CSVViewerProps {
+  data?: string[][];
+  headers?: string[];
+}
+
 export default function CSVUpload() {
   const [csvData, setCsvData] = useState<string[][] | null>(null)
 
@@ -17,7 +22,7 @@ export default function CSVUpload() {
       <FileUploadForm onDataLoaded={handleDataLoaded} />
       {csvData && (
         <div className="space-y-4">
-          <CSVViewer data={csvData} headers={csvData[0]} />
+          <CSVViewer data={csvData} />
         </div>
       )}
     </div>
