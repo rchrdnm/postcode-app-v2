@@ -36,7 +36,7 @@ export default function RootLayout({
         <div className="flex h-screen bg-gray-100">
           <nav className="w-64 bg-white border-r">
             <div className="p-4">
-              <h1 className="text-xl font-semibold">My Workspace</h1>
+              <h1 className="text-xl font-semibold">Postcode Helper</h1>
             </div>
             <ul className="py-4">
               <li>
@@ -46,7 +46,7 @@ export default function RootLayout({
                 <Link href="/csv-upload" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">CSV Upload</Link>
               </li>
               <li>
-                <Link href="/sendle-postcode" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Sendle Postcode List</Link>
+                <Link href="/sendle" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Sendle Postcode List</Link>
               </li>
             </ul>
           </nav>

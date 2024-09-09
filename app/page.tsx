@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold">Welcome to Your Workspace</h1>
+      <h1 className="text-3xl font-bold">Welcome to my Postcode app</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <Link href="/csv-upload">
           <Card>
@@ -18,7 +18,7 @@ export default function Home() {
             </CardHeader>
           </Card>
         </Link>
-        <Link href="/sendle-postcode">
+        <Link href="/sendle">
           <Card>
             <CardHeader>
               <CardTitle>Sendle Postcode List</CardTitle>

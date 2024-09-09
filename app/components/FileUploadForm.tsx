@@ -5,8 +5,7 @@ import { uploadFile } from '../action'
 import { Button } from "@/app/components/ui/button"
 import { Input } from "@/app/components/ui/input"
 import { parseCSV } from '../lib/csvUtils'
-import { useRouter } from 'next/navigation'; // 
-import { cn } from "../lib/utils"
+import { useRouter } from 'next/navigation';
 
 
 interface FileUploadFormProps {
@@ -15,7 +14,7 @@ interface FileUploadFormProps {
 
 export default function FileUploadForm({ onDataLoaded }: FileUploadFormProps) {
   const [isLoading, setIsLoading] = useState(false)
-  const router = useRouter(); // Initialize router
+  const router = useRouter(); 
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();

@@ -1,8 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import { uploadFile } from '@/app/action'
-import { Button } from "../components/ui/button"
 import CSVViewer from '../components/CSVViewer'
 import FileUploadForm from '../components/FileUploadForm'
 
