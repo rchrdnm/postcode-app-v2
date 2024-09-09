@@ -18,11 +18,11 @@ export default function Home() {
             </CardHeader>
           </Card>
         </Link>
-        <Link href="/google-sheet">
+        <Link href="/sendle-postcode">
           <Card>
             <CardHeader>
-              <CardTitle>Google Sheet</CardTitle>
-              <CardDescription>View and interact with Google Sheets</CardDescription>
+              <CardTitle>Sendle Postcode List</CardTitle>
+              <CardDescription>View the current Sendle postcode list</CardDescription>
             </CardHeader>
           </Card>
         </Link>

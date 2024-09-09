@@ -46,7 +46,7 @@ export default function RootLayout({
                 <Link href="/csv-upload" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">CSV Upload</Link>
               </li>
               <li>
-                <Link href="/google-sheet" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Google Sheet</Link>
+                <Link href="/sendle-postcode" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">Sendle Postcode List</Link>
               </li>
             </ul>
           </nav>
